@@ -36,7 +36,6 @@ public class Util {
 
             sessionFactory = configuration.buildSessionFactory();
         } catch (Exception e) {
-            // Обработка исключения или генерация нового исключения
             throw new ExceptionInInitializerError(e);
         }
     }
